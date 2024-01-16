@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(10, 29, 43);
+}
+
+.heading {
+    text-align: center;
+    margin-top: 1rem;
+    color: rgba(164, 105, 46, 0.616);
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.draw {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 10px;
+    color: rgba(164, 105, 46, 0.616);
+    font-size: 3rem;
+}
+
+.para {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 10px;
+    color: rgba(164, 105, 46, 0.616);
+
+    font-size: 3rem;
+}
+
+.image2 {
+    height: 200px;
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 1rem;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: antiquewhite;
+    margin-top: 10px;
+    height: 400px;
+    width: 300px;
+    display: grid;
+    border-radius: 1rem;
+    padding: 17px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: azure;
+    background-color: black;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+
+    margin: 30px;
+}
+
+.reset {
+    height: 50px;
+    width: 120px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.msg {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 3rem;
+    color: rgba(164, 105, 46, 0.616);
+
+
+
+}
+
+.newbtn {
+    height: 50px;
+    width: 120px;
+    background-color: antiquewhite;
+    margin-left: 45%;
+    border: none;
+    border-radius: 0.5rem;
+
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    margin-left: 45%;
+}
+
+.hide {
+    display: none;
+}
+
+.hide2 {
+    display: none;
+}
