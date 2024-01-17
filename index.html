@@ -3,43 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe </title>
-    <link rel="shortcut icon" href="game icon.jpg" type="image/x-icon">
-<link rel="stylesheet" href="9game.css">
+    <title>Rock PaPer SciSSors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="game icon.jpeg" type="image/x-icon">
 </head>
 <body>
-    <h1 class="heading"> Tic Tac Toe </h1>
-    <div class="draw hide2">
-        <p class="para">It's a draw</p>
-        <img class="image2" src="giphy2.gif" alt="">
+<h1 class="heading">Rock paper scissors </h1>
 
+<div class="choices">
+    <div class="choice " id="rock">
+        <img class="img img1" src="rock image.jpg" alt="">
     </div>
-    <div class="msg-container hide">
-        <p class="msg"></p>
-        <img class="image" src="icegif-129.gif" alt="">
-        <button class="newbtn">New Game </button>
+    <div class="choice " id="paper">
+        <img class="img img2" src="paper image.jpg" alt="">
     </div>
+    <div class="choice " id="scissors">
+        <img class="img img3" src="scissors image.jpg" alt="">
+    </div>
+</div>
+<div class="drawcontainer">
+    <p class="draw draw1">Draw</p>
+</div>
+<div class="wincontainer">
+    <p class="win win1">Congratulations ,You Win! 👍</p>
+    <p class="win win2">You Lose 👎</p>
+</div>
+<div class="scoreboard">
+    <div class="score">
+        <p id="userscore">0</p>
+        <p>You</p>
+    </div>
+    <div  class="score" >
+        <p id="compscore">0</p>
+        <p>Computer</p>
+    </div>
+</div>
+<div class="msgcontainer">
+    <p id="msg">Play Your Move</p>
+</div>
 
-<div class="parent">
-        <div class="container">
-            <button class="btn btn1"></button>
-            <button class="btn btn2"></button>
-            <button class="btn btn3"></button>
-            <button class="btn btn4"></button>
-            <button class="btn btn5"></button>
-            <button class="btn btn6"></button>
-            <button class="btn btn7"></button>
-            <button class="btn btn8"></button>
-            <button class="btn btn9"></button>
-        </div>
-    </div>
-    <div class="button2">
-        <button class="reset">Reset</button>
-
-        </form>
-    </div>
-
-   
-    <script src="9game.js"></script>
+<footer>
+    <p class="copy">ⒸMade by Mayank Jain ,All rights Reserved </p>
+</footer>
+    <script src="script.js"></script>
 </body>
 </html>
